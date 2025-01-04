@@ -19,6 +19,10 @@
   category = "analytics"
 
 [params.modules.clarity.csp]
+  connect-src = [
+      "https://*.clarity.ms",
+      "https://c.bing.com"
+  ]
   script-src = [
       "https://*.clarity.ms",
       "https://c.bing.com"
