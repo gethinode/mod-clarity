@@ -1,6 +1,6 @@
 {
   "name": "@gethinode/mod-clarity",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Hugo module to integrate Microsoft Clarity with your Hinode site",
   "keywords": [
     "hugo",
