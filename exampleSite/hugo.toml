@@ -1,15 +1,26 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Test site for mod-template'
+title = 'Test site for mod-clarity'
+
+[params.debugging]
+    showJS = true
+
+[params.modules.clarity]
+  id = "dummy"
 
 [module]
-  # Build and serve using local mod-template clone declared in the named Hugo workspace:
-  workspace = "mod-template.work"
-  [[module.imports]]
-    path = "github.com/gethinode/mod-template"
-  [[module.imports.mounts]]
-    source = "dist"
-    target = "static"
-  [[module.imports.mounts]]
+  # Build and serve using local mod-clarity clone declared in the named Hugo workspace:
+  workspace = "mod-clarity.work"
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
     source = "layouts"
     target = "layouts"
+  [[module.imports]]
+    path = "github.com/gethinode/mod-clarity"
+  [[module.imports.mounts]]
+    source = "assets/js/modules/clarity/clarity.js"
+    target = "assets/js/clarity.js"
+  [[module.imports]]
+    path = "github.com/gethinode/mod-utils/v2"

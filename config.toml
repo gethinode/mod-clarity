@@ -12,3 +12,14 @@
   [[module.mounts]]
     source = 'static'
     target = 'static'
+
+[params.modules.clarity]
+  integration = "core"
+  state = "async"
+  category = "analytics"
+
+[params.modules.clarity.csp]
+  script-src = [
+      "https://*.clarity.ms",
+      "https://c.bing.com"
+  ]

@@ -1,7 +1,5 @@
 ---
 title: Test site
 description: Site to test module shortcode(s).
-date: 2023-07-10
+date: 2025-01-04
 ---
-
-TODO: placeholder
