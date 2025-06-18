@@ -4,5 +4,5 @@ go 1.19
 
 require (
 	github.com/gethinode/mod-clarity v1.1.0 // indirect
-	github.com/gethinode/mod-utils/v2 v2.10.0 // indirect
+	github.com/gethinode/mod-utils/v4 v4.5.0 // indirect
 )
