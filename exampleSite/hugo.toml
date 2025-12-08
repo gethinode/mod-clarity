@@ -24,4 +24,4 @@ title = 'Test site for mod-clarity'
     source = "assets/js/modules/clarity/clarity.js"
     target = "assets/js/clarity.js"
   [[module.imports]]
-    path = "github.com/gethinode/mod-utils/v4"
+    path = "github.com/gethinode/mod-utils/v5"
