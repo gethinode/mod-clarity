@@ -10,6 +10,8 @@ github.com/gethinode/mod-clarity v1.1.4 h1:cYyHL9DHlG7MVDE+/T+Wmuyk2OlJO6Li2xAJ/
 github.com/gethinode/mod-clarity v1.1.4/go.mod h1:9Wyj9vj95jqtZLuu3cBWl2DIkS0G0epfG/bZkaqrR8I=
 github.com/gethinode/mod-clarity v1.1.5 h1:5n+3cSniobrqECnZpXlJWGjfzzmHFnsPrOzYyfHQWqw=
 github.com/gethinode/mod-clarity v1.1.5/go.mod h1:9Wyj9vj95jqtZLuu3cBWl2DIkS0G0epfG/bZkaqrR8I=
+github.com/gethinode/mod-clarity v1.1.6 h1:L2xzFo7lRx3piqJ4uy1XTBlOakUEkg9lXVk+6Ay1fEc=
+github.com/gethinode/mod-clarity v1.1.6/go.mod h1:9Wyj9vj95jqtZLuu3cBWl2DIkS0G0epfG/bZkaqrR8I=
 github.com/gethinode/mod-utils/v2 v2.8.5 h1:e71ncO2NYpum7JTdNTwb0lw8aDe8Zc64Ehjavy8x9xM=
 github.com/gethinode/mod-utils/v2 v2.8.5/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
 github.com/gethinode/mod-utils/v2 v2.8.6 h1:gtTtL37YPq1n/POIzbj40aYOg1VaZq8IjqwSf2V5yo0=
